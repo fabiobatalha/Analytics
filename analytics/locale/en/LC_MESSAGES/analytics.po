@@ -1,24 +1,25 @@
-# Translations template for analytics.
+# English translations for analytics.
 # Copyright (C) 2016 ORGANIZATION
 # This file is distributed under the same license as the analytics project.
-# 
+#
 # Translators:
 # fabiobatalha <fabiobatalha@gmail.com>, 2015-2016
 # scielo <tecnologia@scielo.org>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Anaytics\n"
+"Project-Id-Version:  Anaytics\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-01-06 14:06-0200\n"
+"POT-Creation-Date: 2016-01-12 16:09-0200\n"
 "PO-Revision-Date: 2016-01-06 18:09+0000\n"
 "Last-Translator: fabiobatalha <fabiobatalha@gmail.com>\n"
-"Language-Team: English (http://www.transifex.com/scielo/anaytics/language/en/)\n"
+"Language: en\n"
+"Language-Team: English "
+"(http://www.transifex.com/scielo/anaytics/language/en/)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.1.1\n"
-"Language: en\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: analytics/charts_config.py:21
 msgid "Fuente: SciELO.org"
@@ -89,6 +90,7 @@ msgstr "Number of citations"
 
 #: analytics/charts_config.py:73 analytics/charts_config.py:100
 #: analytics/charts_config.py:175 analytics/charts_config.py:182
+#: analytics/charts_config.py:307
 msgid "Ano de publicação"
 msgstr "Publishing year"
 
@@ -108,7 +110,7 @@ msgstr "Distribution of citable and non citable documents"
 #: analytics/charts_config.py:137 analytics/charts_config.py:157
 #: analytics/charts_config.py:179 analytics/charts_config.py:199
 #: analytics/charts_config.py:258 analytics/charts_config.py:278
-#: analytics/charts_config.py:298
+#: analytics/charts_config.py:303 analytics/charts_config.py:326
 msgid "Número de documentos"
 msgstr "Number of documents"
 
@@ -148,7 +150,7 @@ msgstr "Affiliation countries"
 
 #: analytics/charts_config.py:160 analytics/charts_config.py:182
 #: analytics/charts_config.py:202 analytics/charts_config.py:261
-#: analytics/charts_config.py:281 analytics/charts_config.py:301
+#: analytics/charts_config.py:281 analytics/charts_config.py:329
 msgid "Documentos"
 msgstr "Documents"
 
@@ -177,12 +179,12 @@ msgid "Situação da publicação"
 msgstr "Publishing status"
 
 #: analytics/charts_config.py:219 analytics/charts_config.py:238
-#: analytics/charts_config.py:318 analytics/charts_config.py:338
+#: analytics/charts_config.py:346 analytics/charts_config.py:366
 msgid "Número de periódicos"
 msgstr "Number of journals"
 
 #: analytics/charts_config.py:222 analytics/charts_config.py:241
-#: analytics/charts_config.py:321 analytics/charts_config.py:341
+#: analytics/charts_config.py:349 analytics/charts_config.py:369
 #: analytics/templates/website/base.mako:76
 msgid "Periódicos"
 msgstr "Journals"
@@ -199,11 +201,11 @@ msgstr "Inclusion year"
 msgid "Distribuição de área temática dos documentos"
 msgstr "Documents distribution by suject areas"
 
-#: analytics/charts_config.py:253 analytics/charts_config.py:313
+#: analytics/charts_config.py:253 analytics/charts_config.py:341
 msgid "Areas temáticas"
 msgstr "Subject areas"
 
-#: analytics/charts_config.py:261 analytics/charts_config.py:321
+#: analytics/charts_config.py:261 analytics/charts_config.py:349
 msgid "Área temática"
 msgstr "Subject area"
 
@@ -219,105 +221,111 @@ msgstr "Document types"
 msgid "Tipo de documento"
 msgstr "Document type"
 
-#: analytics/charts_config.py:290
+#: analytics/charts_config.py:295
+#, fuzzy
+#| msgid "Distribuição de licença de uso dos periódicos"
+msgid "Distribuição de licenças de uso por ano de publicação"
+msgstr "Journals distribution by use licenses"
+
+#: analytics/charts_config.py:318
 msgid "Distribuição de licença de uso dos documentos"
 msgstr "Documents distribution by use licenses"
 
-#: analytics/charts_config.py:293 analytics/charts_config.py:333
+#: analytics/charts_config.py:321 analytics/charts_config.py:361
 msgid "Licenças de uso"
 msgstr "Use licenses"
 
-#: analytics/charts_config.py:301 analytics/charts_config.py:341
+#: analytics/charts_config.py:329 analytics/charts_config.py:369
 msgid "Licença"
 msgstr "license"
 
-#: analytics/charts_config.py:310
+#: analytics/charts_config.py:338
 msgid "Distribuição de área temática dos periódicos"
 msgstr "Journals distribution by subject areas"
 
-#: analytics/charts_config.py:330
+#: analytics/charts_config.py:358
 msgid "Distribuição de licença de uso dos periódicos"
 msgstr "Journals distribution by use licenses"
 
-#: analytics/charts_config.py:349
+#: analytics/charts_config.py:377
 msgid "janeiro"
 msgstr "january"
 
-#: analytics/charts_config.py:350
+#: analytics/charts_config.py:378
 msgid "fevereiro"
 msgstr "februrary"
 
-#: analytics/charts_config.py:351
+#: analytics/charts_config.py:379
 msgid "março"
 msgstr "march"
 
-#: analytics/charts_config.py:352
+#: analytics/charts_config.py:380
 msgid "abril"
 msgstr "april"
 
-#: analytics/charts_config.py:353
+#: analytics/charts_config.py:381
 msgid "maio"
 msgstr "may"
 
-#: analytics/charts_config.py:354
+#: analytics/charts_config.py:382
 msgid "junho"
 msgstr "june"
 
-#: analytics/charts_config.py:355
+#: analytics/charts_config.py:383
 msgid "julho"
 msgstr "july"
 
-#: analytics/charts_config.py:356
+#: analytics/charts_config.py:384
 msgid "agosto"
 msgstr "august"
 
-#: analytics/charts_config.py:357
+#: analytics/charts_config.py:385
 msgid "setembro"
 msgstr "september"
 
-#: analytics/charts_config.py:358
+#: analytics/charts_config.py:386
 msgid "outubro"
 msgstr "october"
 
-#: analytics/charts_config.py:359
+#: analytics/charts_config.py:387
 msgid "novembro"
 msgstr "november"
 
-#: analytics/charts_config.py:360
+#: analytics/charts_config.py:388
 msgid "dezembro"
 msgstr "dicember"
 
-#: analytics/charts_config.py:370
+#: analytics/charts_config.py:398
 msgid "Total de acessos por ano e mês"
 msgstr "Total accesses by year and month"
 
-#: analytics/charts_config.py:376 analytics/charts_config.py:410
+#: analytics/charts_config.py:405 analytics/charts_config.py:439
 #: analytics/templates/website/base.mako:73
 msgid "Acessos"
 msgstr "Accesses"
 
-#: analytics/charts_config.py:380
+#: analytics/charts_config.py:409
 msgid "Acessos em"
 msgstr "Accesses at"
 
-#: analytics/charts_config.py:391
+#: analytics/charts_config.py:420
 msgid "Total de accessos por tipo de documento"
 msgstr "Total accesses by document type"
 
-#: analytics/charts_config.py:395
+#: analytics/charts_config.py:424
 #, python-format
 msgid "%s acessos a documentos do tipo %s"
 msgstr "%s accesses for documents of the type %s"
 
-#: analytics/charts_config.py:407
+#: analytics/charts_config.py:436
 msgid "Vida útil de artigos por número de acessos em "
 msgstr "Articles lifetime by number of accesses at"
 
-#: analytics/charts_config.py:414
+#: analytics/charts_config.py:443
 msgid "Ano de referência"
 msgstr "Reference year"
 
-#: analytics/charts_config.py:414
+#: analytics/charts_config.py:443
 #, python-format
 msgid "%s acessos aos documentos do ano %s"
 msgstr "%s accesses to documents from %s"
@@ -333,6 +341,7 @@ msgstr "%s accesses to documents from %s"
 #: analytics/templates/website/publication_article_document_type.mako:7
 #: analytics/templates/website/publication_article_languages.mako:7
 #: analytics/templates/website/publication_article_licenses.mako:7
+#: analytics/templates/website/publication_article_licenses_publication_year.mako:7
 #: analytics/templates/website/publication_article_references.mako:7
 #: analytics/templates/website/publication_article_subject_areas.mako:7
 #: analytics/templates/website/publication_article_year.mako:7
@@ -463,35 +472,43 @@ msgstr "Received citations by journals"
 msgid "Formas de citação do periódico"
 msgstr "Journal citing forms"
 
-#: analytics/templates/website/base.mako:110
+#: analytics/templates/website/base.mako:102
+msgid "Downloads"
+msgstr ""
+
+#: analytics/templates/website/base.mako:113
 msgid "Ferramenta em desenvolvimento disponível em versão Beta Test."
 msgstr "This tool is under development and it is available in Beta Test version"
 
-#: analytics/templates/website/base.mako:112
+#: analytics/templates/website/base.mako:115
 msgid ""
-"Esta ferramenta esta em desenvolvimento e foi publicada com o objetivo de "
-"realizar testes de uso e performance. Todos os indicadores carregados são "
-"reais e estão sendo atualizados e inseridos gradativamente. Problemas de "
-"lentidão e indisponibilidade do serviços são esperados nesta fase."
-msgstr "This tool is under development, it was published with the objective to test the usage and performance. All the indicators are real and they are gradualy being loaded. Slowness and out of service problems may occur in this fase."
+"Esta ferramenta esta em desenvolvimento e foi publicada com o objetivo de"
+" realizar testes de uso e performance. Todos os indicadores carregados "
+"são reais e estão sendo atualizados e inseridos gradativamente. Problemas"
+" de lentidão e indisponibilidade do serviços são esperados nesta fase."
+msgstr ""
+"This tool is under development, it was published with the objective to "
+"test the usage and performance. All the indicators are real and they are "
+"gradualy being loaded. Slowness and out of service problems may occur in "
+"this fase."
 
-#: analytics/templates/website/base.mako:134
+#: analytics/templates/website/base.mako:137
 msgid "Ajuda"
 msgstr "Help"
 
-#: analytics/templates/website/base.mako:136
+#: analytics/templates/website/base.mako:139
 msgid "Reportar error"
 msgstr "Report Errors"
 
-#: analytics/templates/website/base.mako:137
+#: analytics/templates/website/base.mako:140
 msgid "Lista de discussão"
 msgstr "Discuss mailing list"
 
-#: analytics/templates/website/base.mako:141
+#: analytics/templates/website/base.mako:144
 msgid "Desenvolvimento"
 msgstr "Developments"
 
-#: analytics/templates/website/base.mako:144
+#: analytics/templates/website/base.mako:147
 msgid "Lista de desenvolvimento"
 msgstr "Developments mailing list"
 
@@ -526,6 +543,7 @@ msgstr "apply"
 #: analytics/templates/website/publication_article_document_type.mako:14
 #: analytics/templates/website/publication_article_languages.mako:14
 #: analytics/templates/website/publication_article_licenses.mako:14
+#: analytics/templates/website/publication_article_licenses_publication_year.mako:14
 #: analytics/templates/website/publication_article_references.mako:14
 #: analytics/templates/website/publication_article_subject_areas.mako:14
 #: analytics/templates/website/publication_article_year.mako:14
@@ -542,14 +560,19 @@ msgid ""
 "considerando os períodos de imediatez, além de períodos de 1 a 5 anos. A "
 "linha de 2 anos equivale ao fator de impacto de periódicos da Thomson "
 "Reuters"
-msgstr "This chart show the impact fator of the selected journal considering the immediacy period, including the impact factor for 1 to 5 years. The 2 years line refers to the Thomson Reuters impact factor."
+msgstr ""
+"This chart show the impact fator of the selected journal considering the "
+"immediacy period, including the impact factor for 1 to 5 years. The 2 "
+"years line refers to the Thomson Reuters impact factor."
 
 #: analytics/templates/website/bibliometrics_journal_received_self_and_granted_citation_chart.mako:17
 msgid ""
 "Este gráfico apresenta o número de citações concedidas, recebidas e auto "
-"citações do periódico selecionado, os dados estão distribuidos por ano de "
-"publicação."
-msgstr "This chart show the number of granted, received and auto citations of the selected journal, the data is distributed by publication year."
+"citações do periódico selecionado, os dados estão distribuidos por ano de"
+" publicação."
+msgstr ""
+"This chart show the number of granted, received and auto citations of the"
+" selected journal, the data is distributed by publication year."
 
 #: analytics/templates/website/bibliometrics_list_citing_forms.mako:22
 msgid "Formas de citação encontrada para o periódico selecionado"
@@ -615,6 +638,56 @@ msgstr "4 years"
 msgid "5 ano"
 msgstr "5 years"
 
+#: analytics/templates/website/downloads.mako:5
+#, fuzzy
+#| msgid "ações"
+msgid "Tabulações"
+msgstr "actions"
+
+#: analytics/templates/website/downloads.mako:7
+msgid ""
+"O SciELO fornece algumas tabulações pré-formatadas com alguns dos "
+"metadados utilizados para produção dos indicadores presentes nesta "
+"ferramenta. Qualquer interessado pode fazer o download e produzir "
+"análises bibliométricas de acordo com suas necessidade."
+msgstr ""
+
+#: analytics/templates/website/downloads.mako:10
+msgid "Para mais informações sobre as catacterísticas de cada tabulação, acessar"
+msgstr ""
+
+#: analytics/templates/website/downloads.mako:16
+msgid "nome do arquivo"
+msgstr ""
+
+#: analytics/templates/website/downloads.mako:17
+#, fuzzy
+#| msgid "Qual a periodicidade de atualização dos indicadores?"
+msgid "periodicidade de atualização"
+msgstr "What is the updating frequency of the indicators?"
+
+#: analytics/templates/website/downloads.mako:17
+#, fuzzy
+#| msgid "Mensal"
+msgid "mensal"
+msgstr "Monthly"
+
+#: analytics/templates/website/downloads.mako:18
+msgid "tamanho do arquivo"
+msgstr ""
+
+#: analytics/templates/website/downloads.mako:19
+msgid "conjunto de caracteres"
+msgstr ""
+
+#: analytics/templates/website/downloads.mako:20
+msgid "última atualização"
+msgstr ""
+
+#: analytics/templates/website/downloads.mako:23
+msgid "arquivo não disponível para esta coleção"
+msgstr ""
+
 #: analytics/templates/website/faq.mako:5
 msgid "Perguntas Frequentes (Acessos)"
 msgstr "Frequent Questions (Accesses)"
@@ -625,22 +698,23 @@ msgstr "Why some collections do not have site usage indicators?"
 
 #: analytics/templates/website/faq.mako:8
 msgid ""
-"Para que os dados de acessos sejam computados é necessário que os logs de "
-"acessos sejam enviados para processamento. A ausência de estatísticas de "
-"acessos deve ser verificada com a coordenação de cada coleção SciELO."
+"Para que os dados de acessos sejam computados é necessário que os logs de"
+" acessos sejam enviados para processamento. A ausência de estatísticas de"
+" acessos deve ser verificada com a coordenação de cada coleção SciELO."
 msgstr ""
 
 #: analytics/templates/website/faq.mako:11
-msgid ""
-"Por que algumas coleções possuem acessos computados para um período maior?"
-msgstr "Why the available periods of the usage indicators differs from one collection to another?"
+msgid "Por que algumas coleções possuem acessos computados para um período maior?"
+msgstr ""
+"Why the available periods of the usage indicators differs from one "
+"collection to another?"
 
 #: analytics/templates/website/faq.mako:12
 msgid ""
-"O período disponível de cada uma das coleções depende do período disponível "
-"dos logs de acessos de cada uma das coleções. Este projeto se compromete a "
-"computar os dados de acessos à partir de 2012, desde que os logs sejam "
-"devidamente fornecidos pelas coleções."
+"O período disponível de cada uma das coleções depende do período "
+"disponível dos logs de acessos de cada uma das coleções. Este projeto se "
+"compromete a computar os dados de acessos à partir de 2012, desde que os "
+"logs sejam devidamente fornecidos pelas coleções."
 msgstr ""
 
 #: analytics/templates/website/faq.mako:15
@@ -650,20 +724,26 @@ msgstr "What is being computed?"
 
 #: analytics/templates/website/faq.mako:16
 msgid ""
-"Estão sendo contabilizados e classificados os acessos ao texto completo em "
-"HTML, PDF e EPDF (ReadCube), além dos acessos a páginas de resumo do artigo."
-msgstr "Are being computed and classified the accesses to the full text in HTML, PDF, EPDF (ReadCube), besides the accesses to the abstract pages in the website."
+"Estão sendo contabilizados e classificados os acessos ao texto completo "
+"em HTML, PDF e EPDF (ReadCube), além dos acessos a páginas de resumo do "
+"artigo."
+msgstr ""
+"Are being computed and classified the accesses to the full text in HTML, "
+"PDF, EPDF (ReadCube), besides the accesses to the abstract pages in the "
+"website."
 
 #: analytics/templates/website/faq.mako:19
 msgid ""
 "Porque os indicadores desta ferramenta são diferentes dos fornecidos em "
 "outras ferramentas SciELO?"
-msgstr "Why the indicators of this tool differs from the indicators delivered by other SciELO sites?"
+msgstr ""
+"Why the indicators of this tool differs from the indicators delivered by "
+"other SciELO sites?"
 
 #: analytics/templates/website/faq.mako:21
 msgid ""
-"Algumas ferramentas SciELO pode ainda estar utilizando os serviços antigos "
-"de estatísticas de acessos."
+"Algumas ferramentas SciELO pode ainda estar utilizando os serviços "
+"antigos de estatísticas de acessos."
 msgstr ""
 
 #: analytics/templates/website/faq.mako:22
@@ -705,10 +785,10 @@ msgstr ""
 
 #: analytics/templates/website/faq.mako:37
 msgid ""
-"Estão sendo contabilizados indicadores de publicação das coleções com base "
-"nos metadados fornecidos durante todo o processo de publicação de um "
-"documento no SciELO. A qualidade desses indicadores esta diretamente ligada "
-"a qualidade dos processos implementados por cada uma das coleções."
+"Estão sendo contabilizados indicadores de publicação das coleções com "
+"base nos metadados fornecidos durante todo o processo de publicação de um"
+" documento no SciELO. A qualidade desses indicadores esta diretamente "
+"ligada a qualidade dos processos implementados por cada uma das coleções."
 msgstr ""
 
 #: analytics/templates/website/faq.mako:41
@@ -731,24 +811,28 @@ msgstr "select"
 msgid ""
 "Este gráfico apresenta o total de documentos por país de afiliação dos "
 "autores. Os valores totais de documentos deste gráfico não podem ser "
-"considerados como totais da coleção uma vez que um documento pode ter mais "
-"um país de afiliação."
+"considerados como totais da coleção uma vez que um documento pode ter "
+"mais um país de afiliação."
 msgstr ""
 
 #: analytics/templates/website/publication_article_authors.mako:17
 msgid ""
-"Este gráfico apresenta a distribuição de documentos por número de autores. "
-"Os números são relacionados a coleção ou ao periódico quando um periódico é "
-"selecionado."
-msgstr "This chart show the documents distribution by the number of authors. The numbers are related to one collection or to one journal when it is selected."
+"Este gráfico apresenta a distribuição de documentos por número de "
+"autores. Os números são relacionados a coleção ou ao periódico quando um "
+"periódico é selecionado."
+msgstr ""
+"This chart show the documents distribution by the number of authors. The "
+"numbers are related to one collection or to one journal when it is "
+"selected."
 
 #: analytics/templates/website/publication_article_citable_documents.mako:17
 msgid ""
-"Este gráfico apresenta a distribuição de documentos citáveis e não citáveis "
-"relacionados ao periódico selecionado. Entendesse por documentos citáveis, "
-"todos os documentos elegíveis para contagem de fator de impacto, esses "
-"documentos devem ser do tipo \"Research Article\" ou \"Review Article\". Os "
-"demais tipos de documentos são considerados não citáveis."
+"Este gráfico apresenta a distribuição de documentos citáveis e não "
+"citáveis relacionados ao periódico selecionado. Entendesse por documentos"
+" citáveis, todos os documentos elegíveis para contagem de fator de "
+"impacto, esses documentos devem ser do tipo \"Research Article\" ou "
+"\"Review Article\". Os demais tipos de documentos são considerados não "
+"citáveis."
 msgstr ""
 
 #: analytics/templates/website/publication_article_document_type.mako:17
@@ -761,20 +845,29 @@ msgstr ""
 
 #: analytics/templates/website/publication_article_languages.mako:17
 msgid ""
-"Este gráfico apresenta o total de documentos por idioma de publicação. Os "
-"números são relacionados a coleção ou ao periódico quando um periódico é "
-"selecionado. Os valores totais de documentos deste gráfico não podem ser "
-"considerados como totais da coleção uma vez que um documento pode ser "
+"Este gráfico apresenta o total de documentos por idioma de publicação. Os"
+" números são relacionados a coleção ou ao periódico quando um periódico é"
+" selecionado. Os valores totais de documentos deste gráfico não podem ser"
+" considerados como totais da coleção uma vez que um documento pode ser "
 "publicado em mais de um idioma."
 msgstr ""
 
 #: analytics/templates/website/publication_article_licenses.mako:17
 msgid ""
-"Este gráfico apresenta a distribuição de documentos por licença de uso. Os "
-"números são relacionados a coleção ou ao periódico quando um periódico é "
-"selecionado. A disponibilidade de indicadores de licença de uso dependem da "
-"adoção da coleção ou periódico selecionado de licenças de uso creative "
-"commons."
+"Este gráfico apresenta a distribuição de documentos por licença de uso. "
+"Os números são relacionados a coleção ou ao periódico quando um periódico"
+" é selecionado. A disponibilidade de indicadores de licença de uso "
+"dependem da adoção da coleção ou periódico selecionado de licenças de uso"
+" creative commons."
+msgstr ""
+
+#: analytics/templates/website/publication_article_licenses_publication_year.mako:17
+msgid ""
+"Este gráfico apresenta a distribuição de documentos por licença de uso e "
+"ano de publicação. Os números são relacionados a coleção ou ao periódico "
+"quando um periódico é selecionado. A disponibilidade de indicadores de "
+"licença de uso dependem da adoção da coleção ou periódico selecionado de "
+"licenças de uso creative commons."
 msgstr ""
 
 #: analytics/templates/website/publication_article_references.mako:17
@@ -782,62 +875,72 @@ msgid ""
 "Este gráfico apresenta a distribuição de documentos por número de "
 "referências bibliográficas. Os números são relacionados a coleção ou ao "
 "periódico quando um periódico é selecionado."
-msgstr "This chart show the documents distribution by the number of bibliographic references. The numbers are related to one collection or to one journal when it is selected."
+msgstr ""
+"This chart show the documents distribution by the number of bibliographic"
+" references. The numbers are related to one collection or to one journal "
+"when it is selected."
 
 #: analytics/templates/website/publication_article_subject_areas.mako:17
 msgid ""
-"Este gráfico apresenta o total de documentos publicados por área de atuação."
-" Os números são relacionados a coleção ou ao periódico quando um periódico é"
-" selecionado. As áreas de atuação são as grandes áreas do CNPQ, essas áreas "
-"são determinadas para cada um dos periódicos SciELO, podendo um periódico "
-"estar relacionado a mais de uma área de atuação. Os valores totais de "
-"documentos deste gráfico não podem ser considerados como totais da coleção "
-"uma vez que um documento pode fazer parte de mais de uma área de atuação. "
-"Este gráfico é recomendado para extração de indicadores de Coleção."
+"Este gráfico apresenta o total de documentos publicados por área de "
+"atuação. Os números são relacionados a coleção ou ao periódico quando um "
+"periódico é selecionado. As áreas de atuação são as grandes áreas do "
+"CNPQ, essas áreas são determinadas para cada um dos periódicos SciELO, "
+"podendo um periódico estar relacionado a mais de uma área de atuação. Os "
+"valores totais de documentos deste gráfico não podem ser considerados "
+"como totais da coleção uma vez que um documento pode fazer parte de mais "
+"de uma área de atuação. Este gráfico é recomendado para extração de "
+"indicadores de Coleção."
 msgstr ""
 
 #: analytics/templates/website/publication_article_year.mako:17
 msgid ""
 "Este gráfico apresenta o total de documentos publicados por ano de "
-"publicação. Os números são relacionados a coleção ou ao periódico quando um "
-"periódico é selecionado."
-msgstr "This chart show the total of published documents by publication year. The numbers are related to one collection or to one journal when it is selected."
+"publicação. Os números são relacionados a coleção ou ao periódico quando "
+"um periódico é selecionado."
+msgstr ""
+"This chart show the total of published documents by publication year. The"
+" numbers are related to one collection or to one journal when it is "
+"selected."
 
 #: analytics/templates/website/publication_journal_licenses.mako:17
 msgid ""
-"Este gráfico apresenta o número de periódicos por licença de uso adotada. Os"
-" valores totais de periódicos deste gráfico não podem ser considerados como "
-"totais da coleção uma vez que um documento pode fazer parte de mais de uma "
-"área de atuação. Este gráfico é recomendado para extração de indicadores de "
-"Coleção."
+"Este gráfico apresenta o número de periódicos por licença de uso adotada."
+" Os valores totais de periódicos deste gráfico não podem ser considerados"
+" como totais da coleção uma vez que um documento pode fazer parte de mais"
+" de uma área de atuação. Este gráfico é recomendado para extração de "
+"indicadores de Coleção."
 msgstr ""
 
 #: analytics/templates/website/publication_journal_status.mako:17
 msgid ""
-"Este gráfico apresenta o número de periódicos por status da publicação no "
-"SciELO. O status considerado neste grafíco é o status vigente do periódico, "
-"não são consideradas as mudanças de status a longo da existência do "
-"periódico nas bases SciELO. Este gráfico é recomendado para extração de "
-"indicadores de Coleção."
+"Este gráfico apresenta o número de periódicos por status da publicação no"
+" SciELO. O status considerado neste grafíco é o status vigente do "
+"periódico, não são consideradas as mudanças de status a longo da "
+"existência do periódico nas bases SciELO. Este gráfico é recomendado para"
+" extração de indicadores de Coleção."
 msgstr ""
 
 #: analytics/templates/website/publication_journal_subject_areas.mako:17
 msgid ""
 "Este gráfico apresenta o número de periódicos por área de atuação. Este "
-"gráfico é recomendado para extração de indicadores de Coleção. As áreas de "
-"atuação são as grandes áreas do CNPQ, essas áreas são determinadas para cada"
-" um dos periódicos SciELO, podendo um periódico estar relacionado a mais de "
-"uma área de atuação. Os valores totais de periódicos deste gráfico não podem"
-" ser considerados como totais da coleção uma vez que um documento pode fazer"
-" parte de mais de uma área de atuação. Este gráfico é recomendado para "
-"extração de indicadores de Coleção."
+"gráfico é recomendado para extração de indicadores de Coleção. As áreas "
+"de atuação são as grandes áreas do CNPQ, essas áreas são determinadas "
+"para cada um dos periódicos SciELO, podendo um periódico estar "
+"relacionado a mais de uma área de atuação. Os valores totais de "
+"periódicos deste gráfico não podem ser considerados como totais da "
+"coleção uma vez que um documento pode fazer parte de mais de uma área de "
+"atuação. Este gráfico é recomendado para extração de indicadores de "
+"Coleção."
 msgstr ""
 
 #: analytics/templates/website/publication_journal_year.mako:17
 msgid ""
-"Este gráfico apresenta o número periódicos por ano de inclusão no SciELO. "
-"Este gráfico é recomendado para extração de indicadores de Coleção."
-msgstr "This chart show the number of journals by the inclusion year at SciELO. This chart is recommended for collection indicators."
+"Este gráfico apresenta o número periódicos por ano de inclusão no SciELO."
+" Este gráfico é recomendado para extração de indicadores de Coleção."
+msgstr ""
+"This chart show the number of journals by the inclusion year at SciELO. "
+"This chart is recommended for collection indicators."
 
 #: analytics/templates/website/publication_size.mako:10
 #: analytics/templates/website/publication_size.mako:21
@@ -848,10 +951,13 @@ msgstr "About the numbers"
 
 #: analytics/templates/website/publication_size.mako:13
 msgid ""
-"Os números acima correspondem aos periódicos com pelo menos 1 fascículo e "
-"artigo publicados. Os números são definidos de acordo com os filtros "
+"Os números acima correspondem aos periódicos com pelo menos 1 fascículo e"
+" artigo publicados. Os números são definidos de acordo com os filtros "
 "aplicados através da interface."
-msgstr "The numbers above represents the number of journals with at least one issue and published articles. The numbers are defined according to the applied filters (selected through the interface)."
+msgstr ""
+"The numbers above represents the number of journals with at least one "
+"issue and published articles. The numbers are defined according to the "
+"applied filters (selected through the interface)."
 
 #: analytics/templates/website/publication_size.mako:24
 msgid ""
@@ -862,8 +968,9 @@ msgstr ""
 
 #: analytics/templates/website/publication_size.mako:35
 msgid ""
-"Os números acima correspondem ao número de documentos publicados. Os números"
-" são definidos de acordo com os filtros aplicados através da interface."
+"Os números acima correspondem ao número de documentos publicados. Os "
+"números são definidos de acordo com os filtros aplicados através da "
+"interface."
 msgstr ""
 
 #: analytics/templates/website/publication_size.mako:46
@@ -888,3 +995,4 @@ msgstr "issues"
 #: analytics/templates/website/publication_size_journals.mako:9
 msgid "periódicos"
 msgstr "journals"
+
